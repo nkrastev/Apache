@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} -f
+
+RewriteRule \.(gif|jpeg|jpg|JPG|png)$ /bg/watermark/watermark.php [QSA,NC]
